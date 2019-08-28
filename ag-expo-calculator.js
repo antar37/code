@@ -1,9 +1,9 @@
-let form = document.querySelector("#ag-expo-form");
+let agExpoForm = document.querySelector("#ag-expo-form");
 let furnitureTotal = document.querySelector("#furniture-total");
 let quantityList = document.querySelectorAll("#furnitureList .product-block .quantity");
 
 // Event Listener
-form.addEventListener("input", updateForm);
+agExpoForm.addEventListener("input", updateForm);
 
 function updateForm(){
    quantityList.forEach(function(qty){
