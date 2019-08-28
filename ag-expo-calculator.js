@@ -1,5 +1,5 @@
 let agExpoForm = document.querySelector("#ag-expo-form");
-let furnitureTotal = document.querySelector("#furniture-total");
+let furnitureTotal = document.querySelector("#furnitureTotal");
 let quantityList = document.querySelectorAll("#furnitureList .product-block .quantity");
 
 // Event Listener
